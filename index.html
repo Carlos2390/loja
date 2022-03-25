@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <fieldset>
+            <legend>Informações</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="endereco">Rua: </label>
+            <input type="text" name="rua" id="rua">
+            <label for="num">Número: </label>
+            <input type="number" name="num" id="num">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Método de Pagamento</legend>
+            <input type="radio" name="pag" id="pag1" checked>
+            <label for="pag1">Dinheiro</label>
+            <input type="radio" name="pag" id="pag2">
+            <label for="pag2">Pix</label>
+            <input type="radio" name="pag" id="pag3">
+            <label for="pag3">Débito</label>
+            <input type="radio" name="pag" id="pag4">
+            <label for="pag4">Crédito</label>
+        </fieldset>
+        <br>
+        <input id="submit" type="submit" value="Enviar" onclick="enviar()">
+        <p id="formulario">Nome: <br>
+            Email: <br>
+            Endereço: <br>
+            Rua: N° <br>
+            Método De Pagamento:</p>
+        <a id="link" href=""><button>Enviar WhatsApp</button></a>
+    </div>
+    <footer>&copy; Carlos</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
