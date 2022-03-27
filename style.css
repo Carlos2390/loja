@@ -53,9 +53,19 @@ body{
 .form button:hover{
     background-color: lightgray;
 }
-footer{
+footer, a{
+    
+    text-decoration: none;
     margin-top: 20px;
     text-align: center;
     color: lightcoral;
     font-size: 15pt;
+}
+footer a:hover{
+    color: lightblue;
+}
+@media (max-width: 600px){
+    body{
+        margin-right: -30px;
+    }
 }
