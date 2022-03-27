@@ -23,6 +23,6 @@ function enviar(){
     Método de Pagamento: ${metodo}`
 
     let link = `Nome: ${nome.value} | E-mail: ${email.value} | Endereço: Rua: ${rua.value} n° ${num.value} | Método de Pagamento: ${metodo}`
-    wpp.href = `https://api.whatsapp.com/send?phone=5551994176171&text=${link}`
+    wpp.href = `https://api.whatsapp.com/send?phone=5511945615278&text=${link}`
 }
 
